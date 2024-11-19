@@ -12,7 +12,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Токен бота
-BOT_TOKEN = "7734568951:AAF4ji6IHZRXn1MjO04ss9it6SFfWQgjjFo"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Приветственное сообщение
 START_MESSAGE = "Привет! Нажми на кнопку ниже, чтобы получить предсказание или узнать больше обо мне."
